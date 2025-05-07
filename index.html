@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sketch</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="container"></div>
-    
-    <script src="./scripts.js"></script>
+  <div class="controls">
+    <h1>Etch-a-Sketch</h1>
+    <button id="newGridBtn">New Grid</button>
+  </div>
+
+  <div id="container"></div>
+  <div id="statusPanel">
+    <p><strong>Drawing:</strong> <span id="drawingStatus">ON</span></p>
+    <small>Left click = toggle drawing</small>
+    <p>By Hortex.</p>
+  </div>  
+  <script src="scripts.js"></script>
 </body>
 </html>
